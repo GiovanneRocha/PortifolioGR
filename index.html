@@ -6,18 +6,9 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!--Fim do Fonts-->
-    <!--booststrap icons-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <!--fim do booststrap icons-->
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/><!--Fim do Fonts--><!--booststrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/><!--fim do booststrap icons-->
+    <link rel="stylesheet" href="style.css"/>
     <title>Giovanne Rocha</title>
   </head>
   <body>
@@ -31,10 +22,10 @@
 
         <nav class="menu-desktop">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#" onclick="navigateTo('Home')">Home</a></li>
+            <li><a href="#" onclick="navigateTo('Servicos')">Serviços</a></li>
+            <li><a href="#" onclick="navigateTo('Sobre')">Sobre</a></li>
+            <li><a href="#" onclick="navigateTo('Projetos')">Projetos</a></li>
           </ul>
         </nav>
 
@@ -46,23 +37,19 @@
         <div class="menu-mobile" id="menu-mobile">
           <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#" onclick="navigateTo('Home')">Home</a></li>
+            <li><a href="#" onclick="navigateTo('Servicos')">Serviços</a></li>
+            <li><a href="#" onclick="navigateTo('Sobre')">Sobre</a></li>
+            <li><a href="#" onclick="navigateTo('Projetos')">Projetos</a></li>
           </ul>
           </nav>
         </div>
-
-
         <div class="btn-contato">
           <a href="#">
             <button>Contato</button>
           </a>
-        </div>
-        <!--btn-contato-->
-      </div>
-      <!--interface-->
+        </div><!--btn-contato-->
+      </div><!--interface-->
     </header>
 
     <main>
@@ -84,8 +71,7 @@
                   <button>Entrar em Contato</button>
                 </a>
               </div>
-            </div>
-            <!--txt-topo-site-->
+            </div><!--txt-topo-site-->
 
             <div class="img-topo-site">
               <img
@@ -97,10 +83,9 @@
             </div>
             <!--img-topo-site--> </dvi
           ><!--flex-->
-        </div>
-        <!--interface-->
-      </section>
-      <!--topo-do-site-->
+        </div><!--interface-->
+
+      </section><!--topo-do-site-->
 
       <section class="especialidades">
         <div class="interface">
@@ -140,8 +125,7 @@
           <!--flex-->
         </div>
         <!--interface-->
-      </section>
-      <!--especialidades-->
+      </section><!--especialidades-->
 
       <section class="sobre">
         <div class="interface">
@@ -178,25 +162,15 @@
                 desenvolvimento.
               </p>
               <div class="btn-social">
-                <a href="#"
-                  ><button><i class="bi bi-linkedin"></i></button
-                ></a>
-                <a href="#"
-                  ><button><i class="bi bi-instagram"></i></button
-                ></a>
-                <a href="#"
-                  ><button><i class="bi bi-github"></i></button
-                ></a>
-              </div>
-              <!--btn-social-->
-            </div>
-            <!--txt-sobre-->
-          </div>
-          <!--flex-->
-        </div>
-        <!--interface-->
-      </section>
-      <!--sobre-->
+                <a href="https://www.linkedin.com/in/giovanne-rocha-grv751585/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                <a href="https://github.com/GiovanneRocha" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                <a href="https://bit.ly/3YF3YSG" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                <a href="https://bit.ly/m/giovanne-rocha-contat" target="_blank"><button><i class="bi bi-globe"></i></button></a>
+              </div><!--btn-social-->
+            </div><!--txt-sobre-->
+          </div><!--flex-->
+        </div><!--interface-->
+      </section><!--sobre-->
 
       <section class="portifolio">
         <div class="interface">
@@ -220,44 +194,31 @@
             >
               <div class="overlay">Projeto3</div>
             </div>
-          </div>
-          <!--flex-->
-        </div>
-        <!--interface-->
-      </section>
-      <!--portifolio-->
+          </div><!--flex-->
+        </div><!--interface-->
+      </section><!--portifolio-->
 
       <section class="formulario">
         <div class="interface">
           <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-          <form method="post" action="enviar.php">
-            <input
-              type="text"
-              name="nome"
-              id="nome"
-              placeholder="Nome"
-              required
-            />
-            <input type="text" name="email" id="email" placeholder="E-mail" />
-            <input
-              type="text"
-              name="celular"
-              id="celular"
-              placeholder="Celular"
-            />
-            <textarea
-              name="mensagem"
-              id="mensagem"
-              placeholder="Mensagem"
-              required
-            ></textarea>
-            <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
-          </form>
-          <!--form-->
-        </div>
-        <!--interface-->
-      </section>
-      <!--formulario-->
+          <form action="https://formsubmit.co/rocha.giovanne07@gmail.com" method="post">
+            <input type="text" name="nome" id="nome" placeholder="Nome" required/>
+            <input type="text" name="email" id="email" placeholder="E-mail" required/>
+            <input type="text" name="celular" id="celular" placeholder="Celular"/>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+
+            <div class="btn-enviar">
+              <input type="submit" value="ENVIAR" />
+              <input type="hidden" name="_subject" value="Novo Contato!">
+              <input type="text" name="_honey" style="display:none">
+              <input type="hidden" name="_captcha" value="false">
+
+            </div>
+
+          </form><!--form-->
+        </div><!--interface-->
+      </section><!--formulario-->
+
     </main>
 
     <footer>
@@ -266,40 +227,27 @@
           <div class="flex">
             <div class="logo-footer">
               <img src="images/logo.png" width="80" height="80" alt="G" />
-            </div>
-            <!--logo-footer-->
+            </div><!--logo-footer-->
             <div class="btn-social">
-              <a href="#"
-                ><button><i class="bi bi-linkedin"></i></button
-              ></a>
-              <a href="#"
-                ><button><i class="bi bi-instagram"></i></button
-              ></a>
-              <a href="#"
-                ><button><i class="bi bi-github"></i></button
-              ></a>
-            </div>
-            <!--btn-social-->
-          </div>
-          <!--flex-->
-        </div>
-        <!--line-footer-->
+              <a href="https://www.linkedin.com/in/giovanne-rocha-grv751585/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+              <a href="https://github.com/GiovanneRocha" target="_blank"><button><i class="bi bi-github"></i></button></a>
+              <a href="https://bit.ly/3YF3YSG" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+              <a href="https://bit.ly/m/giovanne-rocha-contat" target="_blank"><button><i class="bi bi-globe"></i></button></a>
+            </div><!--btn-social-->
+          </div><!--flex-->
+        </div><!--line-footer-->
 
         <div class="line-footer borda">
           <p>
             <i class="bi bi-envelope"></i>
-            <a href="mailto:rocha.giovanne07@gmail.com"
-              >rocha.giovanne07@gmail.com</a
-            >
+            <a href="mailto:rocha.giovanne07@gmail.com">rocha.giovanne07@gmail.com</a>
           </p>
-        </div>
-        <!--line-footer-->
-      </div>
-      <!--interface-->
+        </div><!--line-footer-->
+      </div><!--interface-->
     </footer>
 
     <script src="animar.js"></script>
-
+    <script src="navegar.js"></script>
 
   </body>
 </html>
