@@ -35,9 +35,8 @@ document.querySelectorAll('.menu-mobile li a').forEach((link) => {
     });
 });
 
-// Adiciona equivalente ao botão de contato
-document.querySelector('.btn-contato a').addEventListener('click', (event) => {
+// Adiciona equivalente ao botão de contato do topo do site
+document.querySelector('.btn-contato button').addEventListener('click', (event) => {
     event.preventDefault();
     navigateTo('Contato');
 });
-
